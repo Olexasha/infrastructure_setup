@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Обновляем ссылки и устанавливаем git
-sudo apt-get update
-sudo apt install git
+sudo apt update
+sudo apt install -y git
 
 # Клоним репозиторий
 # shellcheck disable=SC2164
