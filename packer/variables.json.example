@@ -1,0 +1,6 @@
+{
+    "id_catalog": "b1gqd4jqceu8foa3um2m",
+    "id_source_image": "ubuntu-1604-lts",
+    "service_account_key_file_path": "./files/packer_key.json",
+    "use_ipv4_nat": "true"
+}
