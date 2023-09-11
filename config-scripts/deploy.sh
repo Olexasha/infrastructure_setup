@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Обновляем ссылки и устанавливаем git
 sudo apt update
@@ -16,6 +16,7 @@ puma -d
 # Проверяем, что сервер запущен и выводим его порт в случае успеха
 # shellcheck disable=SC2009
 PORT=$(ps aux | grep puma | grep -v grep | sed -n 's/.*:\([0-9]\{1,\}\).*/\1/p')
+# shellcheck disable=SC2039
 if [[ -n "$PORT" ]]; then
 	echo "[debug] Puma is running on port $PORT"
 else

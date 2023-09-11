@@ -1,0 +1,9 @@
+cloud_id         = "...cloud_id..."
+folder_id        = "...folder_id..."
+zone             = "...zone..."
+image_id         = "...image_id..."
+subnet_id        = "...subnet_id..."
+public_key_path  = "~/.ssh/yc.pub"
+token_id         = "...token_id..."
+private_key_path = "~/.ssh/yc"
+vm_count         = 2
