@@ -1,0 +1,29 @@
+variable "service_account_key_file" {
+  type = string
+  default = "~/key.json"
+}
+
+variable "folder_id" {
+  type = string
+  default = "<folder_id>"
+}
+
+variable "source_image_family" {
+  type = string
+  default = "ubuntu-1604-lts"
+}
+
+variable "zone" {
+  type = string
+  default = "ru-central1-a"
+}
+
+variable "subnet_id" {
+  type = string
+  default = "<subnet_id>"
+}
+
+variable "use_ipv4_nat" {
+  type = string
+  default = "true"
+}
